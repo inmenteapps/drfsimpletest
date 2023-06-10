@@ -1,0 +1,15 @@
+Comandos de django
+
+django-admin startproject drfsimplecrud . --> crea el sitio para todos los proyectos (nucleo de la aplicación)
+
+python manage.py runserver  --> inicia el servidor
+
+python manage.py startapp projects --> crea una aplicación que será parte del sitio principal (drfsimplecrud en este caso)
+
+no olvidar agregar la aplicación dentro del archivo setting.py en la sección llamada INSTALLED_APPS
+
+
+python manage.py createsuperuser --> crea el super usuario
+
+
+
